@@ -42,6 +42,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144
 # Recovery
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
+BOARD_SUPPRESS_EMMC_WIPE := true
 
 # TWRP
 HAVE_SELINUX := true

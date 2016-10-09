@@ -1,5 +1,5 @@
 # Platform
-TARGET_BOARD_PLATFORM := capri
+TARGET_BOARD_PLATFORM := hawaii
 
 # CPU
 TARGET_ARCH := arm
